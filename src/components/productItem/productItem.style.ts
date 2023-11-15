@@ -65,7 +65,7 @@ export const ProductPrice = styled.p`
 
   `}
 `;
-export const ProductInfo = styled.div`
+export const ProductInfo = styled.p`
   font-weight: 300;
   font-size: 10px;
   line-height: 12px;
