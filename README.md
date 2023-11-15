@@ -1,6 +1,6 @@
 # Teste para vaga de desenvolvedor Fron-End - Consumo de API de Produtos
 
-Este projeto consiste na resolução de um desafio que visa avaliar a capacidade de escrever código limpo, bem testado e reutilizável.
+Este projeto consiste na resolução de um desafio que visa avaliar a capacidade de escrever código limpo, bem testado e reutilizável.  
 O objetivo é criar uma aplicação que consuma uma API REST de produtos para exibir a lista de itens da loja e permitir interações básicas com um carrinho de compras.
 
 
@@ -45,22 +45,22 @@ O objetivo é criar uma aplicação que consuma uma API REST de produtos para ex
 
 ## Deploy
 
-- Para deploy utilizei o Vercel.
+- Para deploy utilizei o Vercel.  
 - [Link para Acesar o Deploy](https://mks-frontend-challenge-sable.vercel.app/)
 
 ## Instruções de Execução
 
-1. **Clonagem do Repositório:**
+1. **Clonagem do Repositório:**  
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-2. **Instalar as dependências:**
-cd nome-do-repositorio
+2. **Instalar as dependências:**  
+cd nome-do-repositorio  
 npm install
 
-3. **Desenvolvimento:**
-npm run dev 
+3. **Desenvolvimento:**  
+npm run dev   
 
-4. **Testes Unitários:**
+4. **Testes Unitários:**  
 npx jest
 
 
