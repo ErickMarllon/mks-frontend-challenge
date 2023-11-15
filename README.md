@@ -16,6 +16,11 @@ O objetivo é criar uma aplicação que consuma uma API REST de produtos para ex
   - Permitir aumentar e diminuir a quantidade de cada item no carrinho.
   - Permitir remover item no carrinho.
 
+- **Responsividade:**
+  - O projeto foi desenvolvido levando em consideração a responsividade para se adaptar às telas de diversos formatos, como dispositivos móveis, tablets e desktops.
+
+
+
 ### Testes Unitários
 
 - Utilização do Jest e testing-library para realizar os testes unitários.
@@ -31,7 +36,7 @@ O objetivo é criar uma aplicação que consuma uma API REST de produtos para ex
 
 - Utilização da API REST de produtos para exibir a lista de itens da loja.
 
-## Ferramentas Requeridas
+## Tecnologias utilizadas
 
 - TypeScript
 - Next
