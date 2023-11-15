@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Teste para vaga de desenvolvedor Fron-End - Consumo de API de Produtos
 
-## Getting Started
+Este projeto consiste na resolução de um desafio que visa avaliar a capacidade de escrever código limpo, bem testado e reutilizável.  
+O objetivo é criar uma aplicação que consuma uma API REST de produtos para exibir a lista de itens da loja e permitir interações básicas com um carrinho de compras.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Funcionalidades Requeridas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Loja:**
+  - Consumir a API de produtos para exibir a lista de itens da loja.
+  - Utilizar um efeito shimmer/skeleton enquanto os dados estiverem em processo de carregamento.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Carrinho:**
+  - Exibir todos os produtos selecionados.
+  - Permitir aumentar e diminuir a quantidade de cada item no carrinho.
+  - Permitir remover item no carrinho.
 
-## Learn More
+- **Responsividade:**
+  - O projeto foi desenvolvido levando em consideração a responsividade para se adaptar às telas de diversos formatos, como dispositivos móveis, tablets e desktops.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Testes Unitários
 
-## Deploy on Vercel
+- Utilização do Jest e testing-library para realizar os testes unitários.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Recursos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### UI/UX
+
+- Utilização do design do [Figma loja - Design System](https://www.figma.com/file/Z4z8osDbK1ET7cjNzFRMrK/MKS-Front-end-challenge?mode=dev).
+
+
+### API
+
+- Utilização da API REST de produtos para exibir a lista de itens da loja.
+
+## Tecnologias utilizadas
+
+- TypeScript
+- Next
+- React-query
+- Styled-components
+- Jest
+
+## Aspectos Técnicos
+
+- Todas as ferramentas listadas são obrigatórias. Além disso, sinta-se à vontade para clonar este repositório.
+
+## Deploy
+
+- Para deploy utilizei o Vercel.  
+- [Link para Acesar o Deploy](https://mks-frontend-challenge-sable.vercel.app/)
+
+## Instruções de Execução
+
+1. **Clonagem do Repositório:**  
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+2. **Instalar as dependências:**  
+cd nome-do-repositorio  
+npm install
+
+3. **Desenvolvimento:**  
+npm run dev   
+
+4. **Testes Unitários:**  
+npx jest
+
+
+## Considerações Finais
+
+Ao desenvolver a solução, priorizei a utilização das ferramentas solicitadas, como TypeScript, React, Jest, React-query e Styled-components, garantindo a conformidade com as diretrizes estabelecidas.
+
+Durante a implementação da aplicação, foquei na eficiência do consumo da API REST de produtos, priorizando a apresentação da lista de produtos na loja com um efeito shimmer/skeleton durante o carregamento. Além disso, o carrinho foi desenvolvido para conter todos os produtos selecionados, oferecendo a funcionalidade de aumentar a quantidade de cada item escolhido.
+
+Os testes unitários foram escritos utilizando Jest e a testing-library, assegurando a qualidade do código e a correta execução das funcionalidades implementadas.
+
+Utilizei o Figma para consultar o design system e garantir a consistência na apresentação visual da aplicação, seguindo as orientações fornecidas.
+
+Estou aberto(a) a qualquer feedback ou sugestão para aprimorar ainda mais a solução desenvolvida.
